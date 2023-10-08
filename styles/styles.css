@@ -1060,3 +1060,30 @@ footer {
     display: none;
   }
 }
+
+@media only screen and (max-width: 615px) {
+  .nav-menu {
+    max-width: 1051px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+  width: 100%;
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+}
